@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LUPA BARRA BUSQUEDA -->
+    <script src="https://kit.fontawesome.com/2b2ce65092.js" crossorigin="anonymous"></script>
+    <title>T shirts</title>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="/public/css/styleHome.css">
+</head>
+
+<body>
+
+<!--inicio de header LOGO HAPPY CODING-->
+
+<div class="logo">
+    <a href="/views/home.html">
+    <img src="/images/Logo-PNG1.png"> </a>  
+</div>
+
+<!-- BARRA DE BUSQUEDA -->
+<div class="buscar">
+    <input type="text" placeholder="Buscar" required>
+    <div class="btn">
+        <i class="fas fa-search"></i>
+    </div>
+       </div>
+
+<!-- BOTONES -->
+
+<div>
+<!-- Animacion Boton Get Started -->
+    <div class="started">
+        <div class="svg hide" id="svg"></div>
+        <!-- GET STARTED & Button -->
+    <div class='started button'>
+        <a href="/views/login.html" class="started-button">Get Started</a>
+        </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js" integrity="sha512-V1YyTKZJrzJNhcKthpNAaohFXBnu5K9j7Qiz6gv1knFuf13TW/3vpgVVhJu9fvbdW8lb5J6czIhD4fWK2iHKXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        const svgContainer = document.getElementById('svg');
+        const animItem = bodymovin.loadAnimation({
+            wrapper: svgContainer,
+            animType: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'https://assets2.lottiefiles.com/packages/lf20_aRvNGV.json'
+        });
+    </script>
+</div>
+
+
+<!-- inicio contenedor secciones -->
+<div class="categories1">
+    <div class="products">
+<!-- SpaceT  -->
+        <div class='Space'>
+            <img src="/images/Bags/bag1.png" width="200px" height="250px">
+        </div>
+        <a href="#" class="neon-button">RocketT</a>
+<!-- SpaceC   -->
+        <div class="Space">    
+            <img src="/images/Bags/bag2.png" width="230px" height="230px">
+        </div>
+        <a href="#" class="neon1-button">RocketC</a>
+<!-- SpaceZ -->
+        <div class='Space'>
+            <img src="/images/Bags/bag1.png" width="200px" height="250px">
+        </div>
+        <a href="#" class="neon2-button">RocketZ</a>
+<!-- SpaceX  -->
+        <div class="Space">
+            <img src="/images/Bags/bag2.png" width="230px" height="230px">
+        </div>
+        <a href="#" class="neon3-button">RocketX</a>
+<!-- SpaceH -->
+        <div class='Space'>
+            <img src="/images/Bags/bag1.png" width="200px" height="250px">
+        </div>
+        <a href="#" class="neon4-button">RocketH</a>
+    </div>
+</div> <!--fin DIV botones-->    
+
+</body>
+</html>
