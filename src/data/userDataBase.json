@@ -1,0 +1,37 @@
+[
+ {
+  "id": 11,
+  "username": "aaaaaaaaaaaaaaaaa",
+  "email": "hola@gmail.com",
+  "pass1": "123",
+  "pass2": "123"
+ },
+ {
+  "id": 1,
+  "username": "aaaaaaaaaaaaaaaaa",
+  "email": "hola@gmail.com",
+  "pass1": "123",
+  "pass2": "123"
+ },
+ {
+  "id": 2,
+  "username": "aaaaaaaaaaaaaaaaa",
+  "email": "hola@gmail.com",
+  "pass1": "123",
+  "pass2": "123"
+ },
+ {
+  "id": 3,
+  "username": "aaaaaaaaaaaaaaaaa",
+  "email": "hola@gmail.com",
+  "pass1": "213",
+  "pass2": "123"
+ },
+ {
+  "id": 4,
+  "username": "Diego",
+  "email": "hola@gmail.com",
+  "pass1": "123",
+  "pass2": "123"
+ }
+]
